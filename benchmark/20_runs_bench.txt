@@ -1,0 +1,45 @@
+goos: darwin
+goarch: arm64
+pkg: go-benchmark-testing/benchmark
+BenchmarkJoin-10           	24818492	        43.14 ns/op	      32 B/op	       1 allocs/op
+BenchmarkJoin-10           	27252338	        42.40 ns/op	      32 B/op	       1 allocs/op
+BenchmarkJoin-10           	28159180	        42.63 ns/op	      32 B/op	       1 allocs/op
+BenchmarkJoin-10           	28415089	        42.14 ns/op	      32 B/op	       1 allocs/op
+BenchmarkJoin-10           	28012484	        42.21 ns/op	      32 B/op	       1 allocs/op
+BenchmarkJoin-10           	28491325	        42.62 ns/op	      32 B/op	       1 allocs/op
+BenchmarkJoin-10           	27848473	        43.49 ns/op	      32 B/op	       1 allocs/op
+BenchmarkJoin-10           	27410010	        42.77 ns/op	      32 B/op	       1 allocs/op
+BenchmarkJoin-10           	28006491	        43.32 ns/op	      32 B/op	       1 allocs/op
+BenchmarkJoin-10           	28032661	        42.74 ns/op	      32 B/op	       1 allocs/op
+BenchmarkJoin-10           	28460296	        42.72 ns/op	      32 B/op	       1 allocs/op
+BenchmarkJoin-10           	27323414	        42.79 ns/op	      32 B/op	       1 allocs/op
+BenchmarkJoin-10           	27841714	        42.62 ns/op	      32 B/op	       1 allocs/op
+BenchmarkJoin-10           	27860677	        42.67 ns/op	      32 B/op	       1 allocs/op
+BenchmarkJoin-10           	28367032	        43.71 ns/op	      32 B/op	       1 allocs/op
+BenchmarkJoin-10           	28186326	        42.90 ns/op	      32 B/op	       1 allocs/op
+BenchmarkJoin-10           	28130136	        43.49 ns/op	      32 B/op	       1 allocs/op
+BenchmarkJoin-10           	27338328	        42.52 ns/op	      32 B/op	       1 allocs/op
+BenchmarkJoin-10           	27814315	        42.61 ns/op	      32 B/op	       1 allocs/op
+BenchmarkJoin-10           	27967464	        66.61 ns/op	      32 B/op	       1 allocs/op
+BenchmarkConcatenate-10    	10959199	       118.1 ns/op	      72 B/op	       4 allocs/op
+BenchmarkConcatenate-10    	10471279	       110.5 ns/op	      72 B/op	       4 allocs/op
+BenchmarkConcatenate-10    	10813363	       111.3 ns/op	      72 B/op	       4 allocs/op
+BenchmarkConcatenate-10    	10873618	       111.3 ns/op	      72 B/op	       4 allocs/op
+BenchmarkConcatenate-10    	10837504	       110.1 ns/op	      72 B/op	       4 allocs/op
+BenchmarkConcatenate-10    	10884884	       110.9 ns/op	      72 B/op	       4 allocs/op
+BenchmarkConcatenate-10    	10886998	       108.8 ns/op	      72 B/op	       4 allocs/op
+BenchmarkConcatenate-10    	11304392	       110.4 ns/op	      72 B/op	       4 allocs/op
+BenchmarkConcatenate-10    	11235595	       110.2 ns/op	      72 B/op	       4 allocs/op
+BenchmarkConcatenate-10    	10924513	       109.4 ns/op	      72 B/op	       4 allocs/op
+BenchmarkConcatenate-10    	11280801	       109.0 ns/op	      72 B/op	       4 allocs/op
+BenchmarkConcatenate-10    	11295986	       112.7 ns/op	      72 B/op	       4 allocs/op
+BenchmarkConcatenate-10    	10660924	       112.2 ns/op	      72 B/op	       4 allocs/op
+BenchmarkConcatenate-10    	10813765	       111.2 ns/op	      72 B/op	       4 allocs/op
+BenchmarkConcatenate-10    	11174614	       110.8 ns/op	      72 B/op	       4 allocs/op
+BenchmarkConcatenate-10    	10649906	       110.5 ns/op	      72 B/op	       4 allocs/op
+BenchmarkConcatenate-10    	10967475	       110.5 ns/op	      72 B/op	       4 allocs/op
+BenchmarkConcatenate-10    	11071803	       111.1 ns/op	      72 B/op	       4 allocs/op
+BenchmarkConcatenate-10    	10818457	       110.3 ns/op	      72 B/op	       4 allocs/op
+BenchmarkConcatenate-10    	11097333	       110.2 ns/op	      72 B/op	       4 allocs/op
+PASS
+ok  	go-benchmark-testing/benchmark	52.271s

@@ -1,0 +1,25 @@
+goos: darwin
+goarch: arm64
+pkg: go-benchmark-testing/benchmark
+BenchmarkJoin-10           	28179872	        42.29 ns/op	      32 B/op	       1 allocs/op
+BenchmarkJoin-10           	28308174	        42.71 ns/op	      32 B/op	       1 allocs/op
+BenchmarkJoin-10           	27900271	        42.87 ns/op	      32 B/op	       1 allocs/op
+BenchmarkJoin-10           	27571602	        42.94 ns/op	      32 B/op	       1 allocs/op
+BenchmarkJoin-10           	28843062	        42.95 ns/op	      32 B/op	       1 allocs/op
+BenchmarkJoin-10           	28640415	        42.30 ns/op	      32 B/op	       1 allocs/op
+BenchmarkJoin-10           	28832955	        42.30 ns/op	      32 B/op	       1 allocs/op
+BenchmarkJoin-10           	28510080	        44.40 ns/op	      32 B/op	       1 allocs/op
+BenchmarkJoin-10           	27230797	        42.71 ns/op	      32 B/op	       1 allocs/op
+BenchmarkJoin-10           	28285875	        47.59 ns/op	      32 B/op	       1 allocs/op
+BenchmarkConcatenate-10    	10585424	       110.6 ns/op	      72 B/op	       4 allocs/op
+BenchmarkConcatenate-10    	10575916	       109.4 ns/op	      72 B/op	       4 allocs/op
+BenchmarkConcatenate-10    	11013286	       109.8 ns/op	      72 B/op	       4 allocs/op
+BenchmarkConcatenate-10    	11086994	       108.1 ns/op	      72 B/op	       4 allocs/op
+BenchmarkConcatenate-10    	11058976	       110.5 ns/op	      72 B/op	       4 allocs/op
+BenchmarkConcatenate-10    	11054188	       110.3 ns/op	      72 B/op	       4 allocs/op
+BenchmarkConcatenate-10    	11086862	       109.9 ns/op	      72 B/op	       4 allocs/op
+BenchmarkConcatenate-10    	10806182	       110.9 ns/op	      72 B/op	       4 allocs/op
+BenchmarkConcatenate-10    	10915536	       121.8 ns/op	      72 B/op	       4 allocs/op
+BenchmarkConcatenate-10    	10921306	       110.9 ns/op	      72 B/op	       4 allocs/op
+PASS
+ok  	go-benchmark-testing/benchmark	27.145s

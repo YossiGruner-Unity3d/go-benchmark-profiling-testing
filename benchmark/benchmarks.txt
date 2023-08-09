@@ -1,0 +1,7 @@
+goos: darwin
+goarch: arm64
+pkg: go-benchmark-testing/benchmark
+BenchmarkJoin-10           	25599066	        42.84 ns/op
+BenchmarkConcatenate-10    	11007502	       132.4 ns/op
+PASS
+ok  	go-benchmark-testing/benchmark	2.875s
